@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="100" started-at="2014-12-30T14:50:01Z" finished-at="2014-12-30T14:50:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="100" started-at="2014-12-30T14:50:01Z" finished-at="2014-12-30T14:50:01Z">
+      <class name="testcases.TestCases">
+        <test-method status="PASS" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:testcases.TestCases@1bc6a36e]" name="testA" duration-ms="2" started-at="2014-12-30T08:50:01Z" data-provider="sampleProvider" finished-at="2014-12-30T08:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:testcases.TestCases@1bc6a36e]" name="testA" duration-ms="1" started-at="2014-12-30T08:50:01Z" data-provider="sampleProvider" finished-at="2014-12-30T08:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestCases@1bc6a36e]" name="testB" duration-ms="2" started-at="2014-12-30T08:50:01Z" data-provider="sampleProvider" finished-at="2014-12-30T08:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="testB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestCases@1bc6a36e]" name="testB" duration-ms="1" started-at="2014-12-30T08:50:01Z" data-provider="sampleProvider" finished-at="2014-12-30T08:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[temp@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+      </class> <!-- testcases.TestCases -->
+      <class name="testcases.SampleTest">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SampleTest@629f0666]" name="testLogin" duration-ms="2" started-at="2014-12-30T08:50:01Z" data-provider="loginTestDataProvider" finished-at="2014-12-30T08:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SampleTest@629f0666]" name="testLogin" duration-ms="2" started-at="2014-12-30T08:50:01Z" data-provider="loginTestDataProvider" finished-at="2014-12-30T08:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testChangePassword()[pri:0, instance:testcases.SampleTest@629f0666]" name="testChangePassword" duration-ms="1" started-at="2014-12-30T08:50:01Z" depends-on-methods="testcases.SampleTest.testLogin" finished-at="2014-12-30T08:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePassword -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testcases.SampleTest@629f0666]" name="logout" duration-ms="1" started-at="2014-12-30T08:50:01Z" depends-on-methods="testcases.SampleTest.testChangePassword, testcases.SampleTest.testLogin" finished-at="2014-12-30T08:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testcases.SampleTest -->
+      <class name="testng_listeners.LoginTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:testng_listeners.LoginTest@2471cca7]" name="login" duration-ms="29" started-at="2014-12-30T08:50:01Z" finished-at="2014-12-30T08:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="adminLogin()[pri:0, instance:testng_listeners.LoginTest@2471cca7]" name="adminLogin" duration-ms="1" started-at="2014-12-30T08:50:01Z" finished-at="2014-12-30T08:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+      </class> <!-- testng_listeners.LoginTest -->
+      <class name="testcases.RegTest">
+        <test-method status="PASS" signature="doRegister(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegTest@1ff8b8f]" name="doRegister" duration-ms="15" started-at="2014-12-30T08:50:01Z" data-provider="regTestDataProvider" finished-at="2014-12-30T08:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method status="PASS" signature="doRegister(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegTest@1ff8b8f]" name="doRegister" duration-ms="1" started-at="2014-12-30T08:50:01Z" data-provider="regTestDataProvider" finished-at="2014-12-30T08:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+      </class> <!-- testcases.RegTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
